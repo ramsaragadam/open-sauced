@@ -77,7 +77,7 @@ function Issues({repoName, owner}) {
     <Card fitted>
       <CardHeader>
         <FlexHeader>
-          <h1>Issues</h1>
+          <h1>Any Issues?!!</h1>
           <Button primary onClick={_toggleIssuesFilter}>
             {issuesFilter === true ? "all issues" : "good first issues" }
           </Button>
